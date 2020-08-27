@@ -60,11 +60,11 @@ if (computer_val ===humanResult)
 {
   header.innerHTML="Game Draw";
 }
-else if ((computer_val==="rock")&&(humanResult==="scissor")||((computer_val==="scissor")&&(humanResult==="paper")))
+else if ((computer_val==="rock")&&(humanResult==="scissor")||((computer_val==="scissor")&&(humanResult==="paper"))||((computer_val==="paper")&&(humanResult==="rock")))
 {
   header.innerHTML="Player 1 Win";
 }
-else if (((computer_val==="rock")&&(humanResult==="paper")) ||((computer_val==="scissor")&&(humanResult==="rock")))
+else if (((computer_val==="rock")&&(humanResult==="paper")) ||((computer_val==="scissor")&&(humanResult==="rock")) ||((computer_val==="paper")&&(humanResult==="scissor")))
 {
   header.innerHTML="Player 2 Win";
 }
