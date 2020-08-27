@@ -1,0 +1,21 @@
+body{
+border: 2px solid #000000;
+text-align: center;
+}
+.container{
+  display: flex;
+  justify-items: space-between;
+
+}
+strong{
+  padding: 30px;
+  font-size: 1.5rem;
+  position: relative;
+  top: -30px;
+}
+.player1{
+  align-self: flex-start;
+}
+.player2{
+  align-self: flex-end;
+}
